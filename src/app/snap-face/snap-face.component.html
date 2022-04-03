@@ -1,0 +1,10 @@
+<div class="heading-box" [ngClass]="{ snapped: cicked }">
+  <h2>{{ mySnap.title | uppercase }}</h2>
+  <div style="margin-bottom: 20px">
+    <button (click)="checkClick()">OH Snap!</button>
+    <span style="margin-left: 5px">{{ mySnap.snaps }}</span>
+    <div style="margin-top:20px">
+    <button (click)="viewDetails()">see details</button>
+  </div>
+  </div>
+</div>

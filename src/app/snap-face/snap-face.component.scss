@@ -1,0 +1,24 @@
+img {
+  width: 50%;
+}
+.heading-box {
+  box-shadow: 10px 5px 5px gray;
+  border-width: 1px;
+  border-radius: 2%;
+  border-style: solid;
+  width: 40%;
+  margin: 5px;
+  padding-left: 5%;
+}
+
+.snapped {
+  background-color: rgba(lightgreen, 0.4);
+  color: darkgreen;
+  button {
+    box-shadow: lightgreen 3px 3px 7px;
+    color: darkgreen;
+    &:active {
+      box-shadow: lightgreen 0 0 5px;
+    }
+  }
+}
